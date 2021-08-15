@@ -66,13 +66,17 @@
 
 
 ## 使用教程
+- 此项目在windows上和ubuntu服务器上都测试过了(2021-8-15)。
 - 首先需要先配置好[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)它的[使用教程](https://docs.go-cqhttp.org/guide/quick_start.html),请注意，配置时，请输入12，即http与正向websocket
 - 再下载本项目可以git clone的形式下载。
 - 配置好必要的文件**config.json**,
-- 建立与**go-cqhttp**的websocker连接，需要配置**main.py**里的
+- (可选，如果发现连接失败)建立与**go-cqhttp**的websocker连接，需要配置**main.py**里的
   ```
     填写自己在go-cqhttp中设置的连接和端口
     ws = CG_Client('ws://127.0.0.1:6700')
   ```
 - 如果报错，可能是python3里面的一些库您没有装过，要不您根据报错信息手动一下。
-- 装完库应该就正常运行了吧,呜呜呜，要是出问题了，我也不是很清楚了，不要骂我。
+  ```
+  pip install ws4py
+  ```
+- 装完库应该就正常运行了吧(运行main.py),呜呜呜，要是出问题了，我也不是很清楚了，不要骂我。
