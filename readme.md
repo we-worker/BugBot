@@ -66,7 +66,7 @@
 
 
 ## 使用教程
-- 首先需要先配置好[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)它的[使用教程](https://docs.go-cqhttp.org/guide/quick_start.html)
+- 首先需要先配置好[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)它的[使用教程](https://docs.go-cqhttp.org/guide/quick_start.html),请注意，配置时，请输入12，即http与正向websocket
 - 再下载本项目可以git clone的形式下载。
 - 配置好必要的文件**config.json**,
 - 建立与**go-cqhttp**的websocker连接，需要配置**main.py**里的
