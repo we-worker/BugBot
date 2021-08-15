@@ -57,14 +57,14 @@ def del_data(del_data, all_data):
 	msg = del_data[2:].split("+")
 	for i in range(len(all_data)):
 		if msg[0] == all_data[i][0]:
-			if len(all_data[i][1]) == 1:
-				all_data.pop(i)
-				save_words(all_data)
-				return [True, "已经删除啦~"]
-			all_data[i][1].remove(msg[1])
+			#if len(all_data[i][1]) == 1:
+			#	all_data.pop(i)
+			#	save_words(all_data)
+			#	return [True, "已经删除啦~"]
+			all_data.pop(i)
 			save_words(all_data)
 			return [True, "已经删除啦~"]
-	return [True, "删除出错啦~"]
+	return [True, "已经删除啦~"]
 
 
 def ghs_pic(msg):
