@@ -62,7 +62,7 @@
 
 ## 文档
 
-http://www.yang99.top/index.php/archives/18/
+
 
 
 ## 使用教程
